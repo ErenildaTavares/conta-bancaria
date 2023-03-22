@@ -1,4 +1,4 @@
-package conta.util;
+package conta.cores;
 
 import java.util.Scanner;
 
@@ -8,8 +8,9 @@ public class menu {
 
         int opcao;
 
-        while(true){
-            System.out.println("*****************************************************");
+        while (true) {
+
+			System.out.println("*****************************************************");
 			System.out.println("                                                     ");
 			System.out.println("                BANCO DO BRAZIL COM Z                ");
 			System.out.println("                                                     ");
@@ -31,49 +32,50 @@ public class menu {
 
 			opcao = scan.nextInt();
 
-            if (opcao == 9) {
+			if (opcao == 9) {
 				System.out.println("\nBanco do Brazil com Z - O seu Futuro começa aqui!");
 				scan.close();
 				System.exit(0);
+			}
 
-                switch (opcao) {
-                    case 1:
-                        System.out.println("Criar Conta\n\n");
-    
-                        break;
-                    case 2:
-                        System.out.println("Listar todas as Contas\n\n");
-    
-                        break;
-                    case 3:
-                        System.out.println("Consultar dados da Conta - por número\n\n");
-    
-                        break;
-                    case 4:
-                        System.out.println("Atualizar dados da Conta\n\n");
-    
-                        break;
-                    case 5:
-                        System.out.println("Apagar a Conta\n\n");
-    
-                        break;
-                    case 6:
-                        System.out.println("Saque\n\n");
-    
-                        break;
-                    case 7:
-                        System.out.println("Depósito\n\n");
-    
-                        break;
-                    case 8:
-                        System.out.println("Transferência entre Contas\n\n");
-    
-                        break;
-                    default:
-                        System.out.println("\nOpção Inválida!\n");
-                        break;
+			switch (opcao) {
+				case 1:
+					System.out.println("Criar Conta\n\n");
+
+					break;
+				case 2:
+					System.out.println("Listar todas as Contas\n\n");
+
+					break;
+				case 3:
+					System.out.println("Consultar dados da Conta - por número\n\n");
+
+					break;
+				case 4:
+					System.out.println("Atualizar dados da Conta\n\n");
+
+					break;
+				case 5:
+					System.out.println("Apagar a Conta\n\n");
+
+					break;
+				case 6:
+					System.out.println("Saque\n\n");
+
+					break;
+				case 7:
+					System.out.println("Depósito\n\n");
+
+					break;
+				case 8:
+					System.out.println("Transferência entre Contas\n\n");
+
+					break;
+				default:
+					System.out.println("\nOpção Inválida!\n");
+					break;
 			}
         }
     }
 }
-}
+
