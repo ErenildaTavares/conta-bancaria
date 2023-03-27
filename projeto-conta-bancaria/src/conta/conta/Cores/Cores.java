@@ -1,6 +1,6 @@
-package conta.cores;
+package conta.Cores;
 
-public class cores {
+public class Cores {
 
 
 		//Reset Color
